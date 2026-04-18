@@ -1,0 +1,21 @@
+{
+  "name": "xiuxian-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "修仙模拟器 - 单机 Web 游戏",
+  "scripts": {
+    "dev": "pnpm --parallel --filter ./packages/* run dev",
+    "dev:client": "pnpm --filter @xiuxian/client run dev",
+    "dev:server": "pnpm --filter @xiuxian/server run dev",
+    "build": "pnpm --filter @xiuxian/shared run build && pnpm --filter @xiuxian/server run build && pnpm --filter @xiuxian/client run build",
+    "lint": "pnpm --parallel --filter ./packages/* run lint",
+    "typecheck": "pnpm --parallel --filter ./packages/* run typecheck"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "id": "mortal",
+    "name": "凡人",
+    "stage": "凡人",
+    "level": 0,
+    "maxCultivation": 100,
+    "breakthroughRate": 1.0,
+    "statBonus": { "hp": 50, "mp": 20, "attack": 5, "defense": 3, "speed": 5 }
+  },
+  {
+    "id": "qi_refining_1",
+    "name": "练气一层",
+    "stage": "练气期",
+    "level": 1,
+    "maxCultivation": 200,
+    "breakthroughRate": 0.95,
+    "statBonus": { "hp": 100, "mp": 50, "attack": 12, "defense": 8, "speed": 10 }
+  },
+  {
+    "id": "qi_refining_2",
+    "name": "练气二层",
+    "stage": "练气期",
+    "level": 2,
+    "maxCultivation": 400,
+    "breakthroughRate": 0.90,
+    "statBonus": { "hp": 150, "mp": 80, "attack": 18, "defense": 12, "speed": 14 }
+  },
+  {
+    "id": "qi_refining_3",
+    "name": "练气三层",
+    "stage": "练气期",
+    "level": 3,
+    "maxCultivation": 800,
+    "breakthroughRate": 0.85,
+    "statBonus": { "hp": 200, "mp": 110, "attack": 25, "defense": 16, "speed": 18 }
+  },
+  {
+    "id": "qi_refining_4",
+    "name": "练气四层",
+    "stage": "练气期",
+    "level": 4,
+    "maxCultivation": 1600,
+    "breakthroughRate": 0.80,
+    "statBonus": { "hp": 260, "mp": 145, "attack": 33, "defense": 21, "speed": 23 }
+  },
+  {
+    "id": "qi_refining_5",
+    "name": "练气五层",
+    "stage": "练气期",
+    "level": 5,
+    "maxCultivation": 3200,
+    "breakthroughRate": 0.75,
+    "statBonus": { "hp": 330, "mp": 185, "attack": 42, "defense": 27, "speed": 28 }
+  },
+  {
+    "id": "qi_refining_6",
+    "name": "练气六层",
+    "stage": "练气期",
+    "level": 6,
+    "maxCultivation": 6400,
+    "breakthroughRate": 0.72,
+    "statBonus": { "hp": 410, "mp": 230, "attack": 52, "defense": 34, "speed": 34 }
+  },
+  {
+    "id": "qi_refining_7",
+    "name": "练气七层",
+    "stage": "练气期",
+    "level": 7,
+    "maxCultivation": 12800,
+    "breakthroughRate": 0.70,
+    "statBonus": { "hp": 500, "mp": 280, "attack": 63, "defense": 42, "speed": 41 }
+  },
+  {
+    "id": "qi_refining_8",
+    "name": "练气八层",
+    "stage": "练气期",
+    "level": 8,
+    "maxCultivation": 25600,
+    "breakthroughRate": 0.68,
+    "statBonus": { "hp": 600, "mp": 335, "attack": 75, "defense": 51, "speed": 49 }
+  },
+  {
+    "id": "qi_refining_9",
+    "name": "练气九层",
+    "stage": "练气期",
+    "level": 9,
+    "maxCultivation": 51200,
+    "breakthroughRate": 0.65,
+    "statBonus": { "hp": 710, "mp": 395, "attack": 88, "defense": 61, "speed": 58 }
+  },
+  {
+    "id": "foundation_1",
+    "name": "筑基一层",
+    "stage": "筑基期",
+    "level": 10,
+    "maxCultivation": 4000,
+    "breakthroughRate": 0.60,
+    "statBonus": { "hp": 1000, "mp": 550, "attack": 120, "defense": 80, "speed": 70 }
+  },
+  {
+    "id": "foundation_2",
+    "name": "筑基二层",
+    "stage": "筑基期",
+    "level": 11,
+    "maxCultivation": 8000,
+    "breakthroughRate": 0.55,
+    "statBonus": { "hp": 1400, "mp": 750, "attack": 165, "defense": 110, "speed": 90 }
+  },
+  {
+    "id": "foundation_3",
+    "name": "筑基三层",
+    "stage": "筑基期",
+    "level": 12,
+    "maxCultivation": 16000,
+    "breakthroughRate": 0.50,
+    "statBonus": { "hp": 1900, "mp": 1000, "attack": 220, "defense": 145, "speed": 115 }
+  },
+  {
+    "id": "golden_core_1",
+    "name": "金丹初期",
+    "stage": "金丹期",
+    "level": 13,
+    "maxCultivation": 20000,
+    "breakthroughRate": 0.40,
+    "statBonus": { "hp": 3000, "mp": 1600, "attack": 350, "defense": 230, "speed": 160 }
+  },
+  {
+    "id": "golden_core_2",
+    "name": "金丹中期",
+    "stage": "金丹期",
+    "level": 14,
+    "maxCultivation": 50000,
+    "breakthroughRate": 0.33,
+    "statBonus": { "hp": 4500, "mp": 2400, "attack": 520, "defense": 340, "speed": 220 }
+  },
+  {
+    "id": "golden_core_3",
+    "name": "金丹后期",
+    "stage": "金丹期",
+    "level": 15,
+    "maxCultivation": 100000,
+    "breakthroughRate": 0.25,
+    "statBonus": { "hp": 6500, "mp": 3500, "attack": 750, "defense": 490, "speed": 300 }
+  },
+  {
+    "id": "nascent_soul_1",
+    "name": "元婴初期",
+    "stage": "元婴期",
+    "level": 16,
+    "maxCultivation": 100000,
+    "breakthroughRate": 0.20,
+    "statBonus": { "hp": 10000, "mp": 5500, "attack": 1100, "defense": 720, "speed": 450 }
+  },
+  {
+    "id": "nascent_soul_2",
+    "name": "元婴中期",
+    "stage": "元婴期",
+    "level": 17,
+    "maxCultivation": 250000,
+    "breakthroughRate": 0.15,
+    "statBonus": { "hp": 15000, "mp": 8200, "attack": 1600, "defense": 1050, "speed": 650 }
+  },
+  {
+    "id": "nascent_soul_3",
+    "name": "元婴后期",
+    "stage": "元婴期",
+    "level": 18,
+    "maxCultivation": 500000,
+    "breakthroughRate": 0.10,
+    "statBonus": { "hp": 22000, "mp": 12000, "attack": 2300, "defense": 1500, "speed": 900 }
+  }
+]

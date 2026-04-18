@@ -1,0 +1,30 @@
+[
+  {
+    "id": "novice_village",
+    "name": "新手村",
+    "description": "坐落于灵脉交汇处的宁静村落，是每位修仙者踏上修行之路的起点。周围灵气稀薄，仅有低阶灵兽出没，适合初入修行的练气期弟子历练。",
+    "requiredRealm": "mortal",
+    "monsterIds": ["ling_tu"]
+  },
+  {
+    "id": "spirit_beast_forest",
+    "name": "灵兽森林",
+    "description": "一片被浓郁灵气笼罩的古老森林，林中栖息着各种灵兽与妖物。越深入森林，遇到的妖兽越加强大。练气中后期至筑基期的修士常来此处历练。",
+    "requiredRealm": "qi_refining_3",
+    "monsterIds": ["yao_hu", "shi_mo"]
+  },
+  {
+    "id": "demon_valley",
+    "name": "万妖谷",
+    "description": "妖兽横行的险恶峡谷，瘴气弥漫，危机四伏。传说谷底藏有上古妖王的洞府，无数修士在此陨落。唯有筑基期以上的修士方有资格踏入。",
+    "requiredRealm": "foundation_1",
+    "monsterIds": ["du_jiao", "shi_hun_shou", "tian_lang"]
+  },
+  {
+    "id": "heavenly_tribulation_realm",
+    "name": "天劫秘境",
+    "description": "天地交汇之处形成的神秘空间，灵气浓郁到近乎液化。此处栖息着远古凶兽的后裔，金丹期以上的修士方可进入探索，稍有不慎便会陨落。",
+    "requiredRealm": "golden_core_1",
+    "monsterIds": ["xuan_gui", "huo_feng"]
+  }
+]

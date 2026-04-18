@@ -1,0 +1,69 @@
+[
+  {
+    "id": "juqi_dan",
+    "name": "聚气丹",
+    "description": "以低阶灵草炼制的入门丹药，服用后可快速补充修为。练气期修士的日常修炼辅助之品。",
+    "grade": "common",
+    "effects": [
+      { "type": "cultivation", "value": 50 }
+    ],
+    "price": 50
+  },
+  {
+    "id": "huixue_dan",
+    "name": "回血丹",
+    "description": "以血藤草为主药炼制的疗伤丹药，服用后可迅速恢复生命力。战斗中不可或缺的保命之物。",
+    "grade": "common",
+    "effects": [
+      { "type": "hp", "value": 200 }
+    ],
+    "price": 80
+  },
+  {
+    "id": "pojing_dan",
+    "name": "破境丹",
+    "description": "蕴含精纯灵力的辅助突破丹药，服用后可临时提升突破成功率。适用于练气期各层突破。",
+    "grade": "rare",
+    "effects": [
+      { "type": "breakthrough_rate", "value": 0.1, "duration": 300 }
+    ],
+    "price": 500
+  },
+  {
+    "id": "zhuji_dan",
+    "name": "筑基丹",
+    "description": "筑基期修士专用的修炼辅助丹药，服用后可获得大量修为，并小幅提升灵力上限。是突破筑基瓶颈的利器。",
+    "grade": "rare",
+    "effects": [
+      { "type": "cultivation", "value": 500 },
+      { "type": "mp", "value": 50, "duration": 600 }
+    ],
+    "price": 1500
+  },
+  {
+    "id": "jindan",
+    "name": "金丹",
+    "description": "以九转灵炉炼制的上品丹药，服用后可获得海量修为，并大幅提升各项属性。金丹期修士梦寐以求的至宝。",
+    "grade": "epic",
+    "effects": [
+      { "type": "cultivation", "value": 5000 },
+      { "type": "hp", "value": 500, "duration": 600 },
+      { "type": "mp", "value": 300, "duration": 600 },
+      { "type": "breakthrough_rate", "value": 0.15, "duration": 300 }
+    ],
+    "price": 10000
+  },
+  {
+    "id": "xisui_dan",
+    "name": "洗髓丹",
+    "description": "传说中能洗筋伐髓的神奇丹药，服用后可永久提升修炼资质，大幅增加修炼速度。极为珍贵，可遇不可求。",
+    "grade": "legendary",
+    "effects": [
+      { "type": "cultivation", "value": 20000 },
+      { "type": "attack", "value": 30 },
+      { "type": "defense", "value": 20 },
+      { "type": "speed", "value": 15 }
+    ],
+    "price": 50000
+  }
+]

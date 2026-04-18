@@ -1,0 +1,62 @@
+[
+  {
+    "id": "tuna_shu",
+    "name": "吐纳术",
+    "description": "最为基础的呼吸吐纳之法，凡人入门修仙的第一步。通过调节呼吸节奏，感应天地灵气，缓慢凝聚于丹田之中。",
+    "grade": "mortal",
+    "cultivationSpeedBonus": 1.0,
+    "statBonus": {},
+    "requiredRealm": "mortal",
+    "price": 0
+  },
+  {
+    "id": "yin_qi_jue",
+    "name": "引气诀",
+    "description": "比吐纳术更为精妙的引气法门，能够主动牵引周围灵气入体，修炼速度显著提升。练气期修士的常用功法。",
+    "grade": "mortal",
+    "cultivationSpeedBonus": 1.3,
+    "statBonus": { "mp": 30 },
+    "requiredRealm": "qi_refining_1",
+    "price": 200
+  },
+  {
+    "id": "zixia_gong",
+    "name": "紫霞功",
+    "description": "以天地紫气为引，修炼者周身会泛起淡淡紫光。此功法不仅能加快修炼速度，还能略微增强灵力总量，是练气后期修士的优选。",
+    "grade": "profound",
+    "cultivationSpeedBonus": 1.6,
+    "statBonus": { "mp": 80, "attack": 15 },
+    "requiredRealm": "qi_refining_5",
+    "price": 2000
+  },
+  {
+    "id": "taiyi_zhenjing",
+    "name": "太乙真经",
+    "description": "上古流传的玄妙功法，据传源自太乙门。修炼此功法可大幅增强灵力与防御，为筑基期修士打下坚实基础。",
+    "grade": "profound",
+    "cultivationSpeedBonus": 1.8,
+    "statBonus": { "hp": 200, "mp": 150, "defense": 30 },
+    "requiredRealm": "foundation_1",
+    "price": 8000
+  },
+  {
+    "id": "hunyuan_gong",
+    "name": "混元功",
+    "description": "以混元之力凝聚金丹的至高功法。修炼者体内灵力浑厚无比，攻防一体，是金丹期修士梦寐以求的修炼之法。",
+    "grade": "earth",
+    "cultivationSpeedBonus": 2.2,
+    "statBonus": { "hp": 500, "mp": 400, "attack": 60, "defense": 50 },
+    "requiredRealm": "golden_core_1",
+    "price": 30000
+  },
+  {
+    "id": "tiandao_jue",
+    "name": "天道诀",
+    "description": "传闻中领悟天道法则后方可修炼的无上功法。修炼者可感应天地大道，修炼速度与战力均有质的飞跃，唯有元婴期以上的大能方可修炼。",
+    "grade": "heaven",
+    "cultivationSpeedBonus": 3.0,
+    "statBonus": { "hp": 1500, "mp": 1200, "attack": 150, "defense": 120, "speed": 80 },
+    "requiredRealm": "nascent_soul_1",
+    "price": 100000
+  }
+]

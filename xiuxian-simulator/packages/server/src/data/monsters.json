@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ling_tu",
+    "name": "灵兔",
+    "description": "吸收了天地灵气而开智的野兔，性情温顺但行动敏捷。新手修士练手的最佳对象。",
+    "realm": "qi_refining_1",
+    "hp": 80,
+    "mp": 20,
+    "attack": 8,
+    "defense": 3,
+    "speed": 15,
+    "loot": [
+      { "itemId": "juqi_dan", "chance": 0.3, "minCount": 1, "maxCount": 2 }
+    ],
+    "expReward": 30,
+    "goldReward": [10, 25]
+  },
+  {
+    "id": "yao_hu",
+    "name": "妖狐",
+    "description": "修炼了数百年灵力的狐狸精怪，善于幻术，攻击带有迷惑效果。练气中期修士需谨慎应对。",
+    "realm": "qi_refining_4",
+    "hp": 220,
+    "mp": 100,
+    "attack": 28,
+    "defense": 15,
+    "speed": 30,
+    "loot": [
+      { "itemId": "juqi_dan", "chance": 0.4, "minCount": 1, "maxCount": 3 },
+      { "itemId": "huixue_dan", "chance": 0.25, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 120,
+    "goldReward": [30, 60]
+  },
+  {
+    "id": "shi_mo",
+    "name": "石魔",
+    "description": "由灵石矿脉中自然孕育的石之魔物，防御力极高，攻击缓慢但威力惊人。练气后期修士的劲敌。",
+    "realm": "qi_refining_7",
+    "hp": 500,
+    "mp": 50,
+    "attack": 55,
+    "defense": 60,
+    "speed": 8,
+    "loot": [
+      { "itemId": "huixue_dan", "chance": 0.4, "minCount": 1, "maxCount": 2 },
+      { "itemId": "pojing_dan", "chance": 0.15, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 350,
+    "goldReward": [60, 120]
+  },
+  {
+    "id": "du_jiao",
+    "name": "毒蛟",
+    "description": "栖息在瘴气沼泽中的毒蛟，浑身剧毒，攻击附带中毒效果。筑基期以下修士切勿轻易招惹。",
+    "realm": "foundation_1",
+    "hp": 900,
+    "mp": 300,
+    "attack": 110,
+    "defense": 70,
+    "speed": 55,
+    "loot": [
+      { "itemId": "huixue_dan", "chance": 0.5, "minCount": 2, "maxCount": 3 },
+      { "itemId": "zhuji_dan", "chance": 0.2, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 800,
+    "goldReward": [150, 300]
+  },
+  {
+    "id": "shi_hun_shou",
+    "name": "噬魂兽",
+    "description": "以吞噬修士魂魄为生的凶兽，攻击可吸取对方灵力。筑基中期的修士遇到也需全力应对。",
+    "realm": "foundation_2",
+    "hp": 1500,
+    "mp": 600,
+    "attack": 160,
+    "defense": 100,
+    "speed": 80,
+    "loot": [
+      { "itemId": "zhuji_dan", "chance": 0.35, "minCount": 1, "maxCount": 2 },
+      { "itemId": "pojing_dan", "chance": 0.3, "minCount": 1, "maxCount": 2 }
+    ],
+    "expReward": 2000,
+    "goldReward": [300, 500]
+  },
+  {
+    "id": "tian_lang",
+    "name": "天狼",
+    "description": "传说中沐浴星光而生的灵狼，速度极快，攻击凌厉。筑基后期至金丹初期的强力对手。",
+    "realm": "foundation_3",
+    "hp": 2200,
+    "mp": 800,
+    "attack": 210,
+    "defense": 130,
+    "speed": 120,
+    "loot": [
+      { "itemId": "zhuji_dan", "chance": 0.5, "minCount": 2, "maxCount": 3 },
+      { "itemId": "jindan", "chance": 0.1, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 5000,
+    "goldReward": [500, 800]
+  },
+  {
+    "id": "xuan_gui",
+    "name": "玄龟",
+    "description": "活了千年的上古玄龟，龟壳坚硬如铁，防御力冠绝群妖。金丹期修士也需耗费大量时间才能击败。",
+    "realm": "golden_core_2",
+    "hp": 8000,
+    "mp": 2000,
+    "attack": 400,
+    "defense": 600,
+    "speed": 30,
+    "loot": [
+      { "itemId": "jindan", "chance": 0.3, "minCount": 1, "maxCount": 1 },
+      { "itemId": "xisui_dan", "chance": 0.05, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 15000,
+    "goldReward": [1000, 2000]
+  },
+  {
+    "id": "huo_feng",
+    "name": "火凤",
+    "description": "浴火重生的上古神禽后裔，周身烈焰环绕，攻击附带灼烧效果。元婴期以下的修士几乎无法匹敌。",
+    "realm": "nascent_soul_1",
+    "hp": 15000,
+    "mp": 5000,
+    "attack": 900,
+    "defense": 500,
+    "speed": 300,
+    "loot": [
+      { "itemId": "jindan", "chance": 0.6, "minCount": 1, "maxCount": 2 },
+      { "itemId": "xisui_dan", "chance": 0.15, "minCount": 1, "maxCount": 1 }
+    ],
+    "expReward": 50000,
+    "goldReward": [3000, 5000]
+  }
+]
