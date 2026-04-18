@@ -1,9 +1,14 @@
 const BASE_URL = '/api/v1';
 
 async function request<T>(path: string, options?: RequestInit): Promise<T> {
+  const headers: Record<string, string> = {};
+  // 只在有 body 时设置 Content-Type，避免 Fastify 拒绝空 JSON body
+  if (options?.body) {
+    headers['Content-Type'] = 'application/json';
+  }
   const res = await fetch(`${BASE_URL}${path}`, {
-    headers: { 'Content-Type': 'application/json' },
     ...options,
+    headers: { ...headers, ...(options?.headers as Record<string, string>) },
   });
   const json = await res.json();
   if (json.code !== 0) {
